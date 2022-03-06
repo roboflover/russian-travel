@@ -14,6 +14,17 @@
   margin: 0 0 0 0;
 }
 
+@media screen and (max-width: 720px) {
+  .place__paragraph {
+    margin: 0 0 28px 0;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .place__paragraph {
     padding: 0 0 0 16px;
