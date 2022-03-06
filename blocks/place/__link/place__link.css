@@ -10,5 +10,6 @@
 }
 
 .place__link:hover {
-  text-decoration: none;
+  opacity: 0.3;
+  transition: 0.9s;
 }
