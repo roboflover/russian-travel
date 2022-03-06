@@ -1,0 +1,7 @@
+.photo-grid {
+  margin: 93px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: calc(100%-15px);
+}
