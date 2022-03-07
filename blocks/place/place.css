@@ -12,10 +12,10 @@
   padding: 0 48px 0 48px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .place {
-    margin: 0 auto;
-    padding: 0 48px 80px 48px;
+    grid-template-columns: 48% minmax(min-content, max-content);
+    grid-gap: 48px 32px;
   }
 }
 
