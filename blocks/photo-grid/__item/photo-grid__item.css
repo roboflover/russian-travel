@@ -9,7 +9,6 @@
   .photo-grid__item {
     width: 288px;
     height: 216px;
-    padding: 16px;
   }
 }
 
@@ -17,6 +16,5 @@
   .photo-grid__item {
     width: 352px;
     height: 264px;
-    padding: 16px;
   }
 }

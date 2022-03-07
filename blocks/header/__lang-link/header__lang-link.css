@@ -1,7 +1,4 @@
 .header__lang-link {
-  margin-right: 18px;
-
-  font-family: 'Inter-Regular', sans-serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.5;
@@ -9,12 +6,8 @@
   text-decoration: none;
 }
 
-.header__lang-link:last-of-type {
-  margin-right: 48px;
-}
-
 .header__lang-link:hover {
-  opacity: 0.3;
+  opacity: 0.8;
   transition: 0.9s;
 }
 

@@ -1,5 +1,6 @@
 .place {
   margin: 0 auto 80px auto;
+  padding: 0 48px 80px 48px;
   display: grid;
   grid-template-columns: 49% minmax(min-content, max-content);
   grid-template-rows: auto;
@@ -10,7 +11,6 @@
   .place {
     margin: 0 auto;
     padding: 0 48px 80px 48px;
-    grid-gap: 48px 40px;
   }
 }
 
