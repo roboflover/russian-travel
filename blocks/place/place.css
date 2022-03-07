@@ -1,11 +1,15 @@
 .place {
-  margin: 0 auto 80px auto;
+  margin: 0 auto;
   padding: 0 48px 80px 48px;
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: 460px 484px;
   grid-template-rows: auto;
   grid-gap: 48px 40px;
   justify-content: center;
+}
+
+.place:last-of-type {
+  padding: 0 48px 0 48px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 1279px) {
