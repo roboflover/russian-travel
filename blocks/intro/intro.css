@@ -1,15 +1,10 @@
 .intro {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
-  max-width: 690px;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .intro {
-    max-width: 100%;
-    padding: 0 48px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 984px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
