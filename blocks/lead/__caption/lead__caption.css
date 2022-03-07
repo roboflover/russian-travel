@@ -13,15 +13,15 @@
   text-align: left;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__caption {
-    padding: 0;
+    margin: 8px 0 0 0;
+    padding: 0 24px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
-    max-width: 100%;
     padding: 0 16px;
   }
 }

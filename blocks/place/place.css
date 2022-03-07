@@ -22,6 +22,11 @@
 @media screen and (max-width: 519px) {
   .place {
     margin: 0 auto 50px auto;
+    padding: 0;
     grid-gap: 0;
+  }
+
+  .place:last-of-type {
+    padding: 0;
   }
 }

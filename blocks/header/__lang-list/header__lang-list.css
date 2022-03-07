@@ -1,0 +1,29 @@
+.header__lang-list {
+  margin: 0 18px 0 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+.header__lang-list:last-of-type {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-list {
+    width: 142px;
+    height: 42px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header__lang-list {
+    margin-right: 18px;
+  }
+
+  .header__lang-list:last-of-type {
+    margin-right: 16px;
+  }
+}
