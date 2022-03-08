@@ -2,9 +2,9 @@
 
 ## Проектная работа 3
 
-## Ссылка на страничку GitHub Pages:
+Ссылка на страничку GitHub Pages:
 
-## https://roboflover.github.io/russian-travel/
+https://roboflover.github.io/russian-travel/
 
 ---
 
