@@ -1,4 +1,5 @@
 .cover__overlay {
+  margin: 0 auto;
   display: flex;
   position: relative;
   text-decoration: none;
@@ -6,6 +7,8 @@
   justify-content: center;
   min-height: 100%;
   color: white;
+  max-width: 1184px;
+  min-height: 740px;
 }
 
 .cover__overlay::before {
@@ -26,4 +29,16 @@
 .cover__overlay:hover::before {
   transition: 1s;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
 }
