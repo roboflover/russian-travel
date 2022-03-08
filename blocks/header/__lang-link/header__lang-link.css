@@ -11,9 +11,9 @@
   transition: 0.9s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 20px;
   }
 }

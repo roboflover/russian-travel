@@ -19,8 +19,21 @@
   }
 }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 768px) {
   .place {
+    padding: 0 24px 88px 24px;
+    grid-template-columns: 48% minmax(min-content, max-content);
+    grid-gap: 48px 28px;
+  }
+
+  .place:last-of-type {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .place {
+    grid-template-columns: 47% minmax(min-content, max-content);
     margin: 0 auto 50px auto;
     padding: 0;
     grid-gap: 0;
