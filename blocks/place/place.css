@@ -12,14 +12,25 @@
   padding: 0 48px 0 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .place {
-    grid-template-columns: 48% minmax(min-content, max-content);
-    grid-gap: 48px 32px;
+    grid-template-columns: 440px 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .place {
+    padding: 0 24px 73px 24px;
+    grid-template-columns: 48% minmax(min-content, max-content);
+    grid-gap: 48px 28px;
+  }
+
+  .place:last-of-type {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place {
     padding: 0 24px 88px 24px;
     grid-template-columns: 48% minmax(min-content, max-content);
